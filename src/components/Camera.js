@@ -11,7 +11,6 @@ import { connect } from "react-redux";
 import { addToCart } from "../redux/actions";
 import { bindActionCreators } from "redux";
 import ReactStars from "react-stars";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 const Camera = ({ camera, addToCart }) => {

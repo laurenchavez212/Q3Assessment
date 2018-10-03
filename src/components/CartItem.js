@@ -10,10 +10,9 @@ const CartItem = ({camera, removeFromCart}) => {
       <Typography gutterBottom variant="headline" component="h2">
         {camera.name}
     </Typography>
-    <button type="button" class="btn btn-outline-primary">Primary</button>
-      <Button onClick={() => removeFromCart(camera.id)}>
+    <button type="button" class="btn btn-outline-primary" onClick={() => removeFromCart(camera.id)}>
         Remove
-      </Button>
+      </button>
     </div>;
 };
 

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import Camera from "./Camera";
 import { Container } from "reactstrap";
 
-const CameraList = props => {
+const CameraList = (props) => {
   let searchedCameras = props.cameras.filter(camera =>
     camera.name.toLowerCase().includes(props.term.toLowerCase())
   );
