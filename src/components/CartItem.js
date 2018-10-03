@@ -3,7 +3,6 @@ import { connect } from "react-redux"
 import { removeFromCart } from "../redux/actions"
 import { bindActionCreators } from "redux"
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
 
 const CartItem = ({camera, removeFromCart}) => {
   return <div className="cartItem">
